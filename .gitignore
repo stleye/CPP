@@ -1,0 +1,89 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.suo
+*.user
+*.userosscache
+*.usertask
+*.opensdf
+*.sdf
+*.ipch
+*.pdb
+*.obj
+*.idb
+*.class
+*.mode1v3
+*.mode2v3
+*.res
+*.tlog
+*.lastbuildstate
+*.vspscc
+*.vssscc
+*.vsp
+*.vspx
+*.tree
+*.unsuccessfulbuild
+
+# Ignore compiled files
+*.out
+*.o
+*.lo
+*.la
+*.al
+*.i
+*.ii
+*.ll
+*.s
+*.ko
+*.mod
+*.cmd
+*.ko.cmd
+*.lds
+*.mod.c
+
+# Ignore debug files
+*.ncb
+*.aps
+*.opt
+*.plg
+*.ldb
+*.idb
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.diff
+*.patch
+*.dSYM/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+*.swo
+*.orig
+*.old
+*.save

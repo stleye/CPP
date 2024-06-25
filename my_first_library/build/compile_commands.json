@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/sebastian/Developer/Learning/CPP/my_first_library/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.2 -o CMakeFiles/tools.dir/tools.cpp.o -c /Users/sebastian/Developer/Learning/CPP/my_first_library/tools.cpp",
+  "file": "/Users/sebastian/Developer/Learning/CPP/my_first_library/tools.cpp",
+  "output": "CMakeFiles/tools.dir/tools.cpp.o"
+},
+{
+  "directory": "/Users/sebastian/Developer/Learning/CPP/my_first_library/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.2 -o CMakeFiles/main.dir/main.cpp.o -c /Users/sebastian/Developer/Learning/CPP/my_first_library/main.cpp",
+  "file": "/Users/sebastian/Developer/Learning/CPP/my_first_library/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
