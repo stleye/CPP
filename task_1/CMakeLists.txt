@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.28)
+project(task_1)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+#include(cmake/StaticAnalyzer.cmake)
+add_executable(task_1 task_1.cpp) 

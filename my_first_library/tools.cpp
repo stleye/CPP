@@ -2,9 +2,8 @@
 #include <iostream>
 
 void MakeItSunny() {
-    std::cout << "It's now sunny\n";
+  int a;
+  std::cout << "It's now sunny\n";
 }
 
-void MakeItRain() {
-    std::cerr << "Not Yet Implemented\n";
-}
+void MakeItRain() { std::cerr << "Not Yet Implemented\n"; }

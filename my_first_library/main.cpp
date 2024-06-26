@@ -1,7 +1,7 @@
 #include "tools.hpp"
 
 int main() {
-    MakeItSunny();
-    MakeItRain();
-    return 0;
+  MakeItSunny();
+  MakeItRain();
+  return 0;
 }
