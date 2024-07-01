@@ -36,7 +36,7 @@ void AddImage(const std::string &img_path, float score, bool highlight) {
 
   fmt::println("<h2> {} </h2>", img_path);
   fmt::println("<img src=\"{}\" />", img_path);
-  fmt::println("<p>score = {} </p>", score);
+  fmt::println("<p>score = {:.2f} </p>", score);
 
   if (highlight)
     fmt::println("</div>");
