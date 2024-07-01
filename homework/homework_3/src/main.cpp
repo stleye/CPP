@@ -24,7 +24,7 @@ int main() {
   rows.push_back(row2);
   rows.push_back(row3);
 
-  image_browser::CreateImageBrowser("Test HTML Writer", "styles.css", rows);
+  image_browser::CreateImageBrowser("Test HTML Writer", "style.css", rows);
 
   return EXIT_SUCCESS;
 }
