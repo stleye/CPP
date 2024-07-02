@@ -9,10 +9,12 @@ using namespace std;
 
 namespace ipb {
 
-template <typename T> class NamedVector {
+template <typename T> class named_vector {
 public:
   // Constructor
-  NamedVector(const std::string &name);
+  named_vector() = default;
+  named_vector(const std::string &name);
+  named_vector(const std::string &name, const std::vector<T> &std_vector);
 
   // Member functions
   std::vector<T> vector() const;
@@ -23,11 +25,15 @@ public:
   void resize(int size);
   int capacity();
 
+  // Custom copy assignment operator
+  named_vector &operator=(const named_vector &other);
+
 private:
   // Member variables
   std::vector<T> v_;
   const std::string name_;
 };
+
 } // namespace ipb
 
 #endif // RECTANGLE_HPP
