@@ -36,4 +36,6 @@ private:
 
 } // namespace ipb
 
+#include "../src/named_vector.tpp"
+
 #endif // RECTANGLE_HPP

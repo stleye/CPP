@@ -1,5 +1,3 @@
-#include "named_vector.hpp"
-
 namespace ipb {
 
 // Constructor

@@ -14,7 +14,7 @@ bool find(const named_vector<int>, int value);
 void print(const named_vector<int>, int value);
 void toupper(const named_vector<int>);
 void sort(const named_vector<int>);
-void rotate(const named_vector<int>);
+void rotate(const named_vector<int>, int);
 void reverse(const named_vector<int>);
 
 } // namespace ipb

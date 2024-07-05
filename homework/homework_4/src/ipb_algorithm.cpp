@@ -50,7 +50,7 @@ void toupper(const named_vector<int> &nv) {}
 
 void sort(const named_vector<int>) {}
 
-void rotate(const named_vector<int>) {}
+void rotate(const named_vector<int>, int r) {}
 
 void reverse(const named_vector<int>) {}
 
