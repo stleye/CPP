@@ -11,7 +11,10 @@ int accumulate(const named_vector<int> &nv) {
   return res;
 }
 
-int count(const named_vector<int> &nv) { return nv.vector().size(); }
+int count(const named_vector<int> &nv, int i) {
+  // return nv.vector().size();
+  return 1;
+}
 
 bool all_even(const named_vector<int> &nv) {
   bool res = true;
@@ -22,11 +25,11 @@ bool all_even(const named_vector<int> &nv) {
 }
 
 void clamp(named_vector<int> &nv, int lo, int hi) {
-  std::vector<int> v;
-  for (int i = 0; i < nv.vector().size(); ++i) {
-    v.push_back(std::clamp(nv.vector()[i], lo, hi));
-  }
-  nv = ipb::named_vector<int>(nv.name(), v);
+  // std::vector<int> v;
+  // for (int i = 0; i < nv.vector().size(); ++i) {
+  //   v.push_back(std::clamp(nv.vector()[i], lo, hi));
+  // }
+  // nv = ipb::named_vector<int>(nv.name(), v);
 }
 
 void fill(named_vector<int> &nv, int value) {
@@ -44,7 +47,7 @@ bool find(const named_vector<int> &nv, int value) {
   return false;
 }
 
-void print(const named_vector<int> &nv, int value) {}
+void print(const named_vector<int> &nv) {}
 
 void toupper(const named_vector<int> &nv) {}
 

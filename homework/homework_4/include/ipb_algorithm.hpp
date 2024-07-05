@@ -6,12 +6,12 @@
 namespace ipb {
 
 int accumulate(const named_vector<int> &nv);
-int count(const named_vector<int> &nv);
+int count(const named_vector<int> &nv, int i);
 bool all_even(const named_vector<int> &nv);
 void clamp(named_vector<int> &nv, int lo, int hi);
-void fill(named_vector<int>, int value);
+void fill(named_vector<int> &nv, int value);
 bool find(const named_vector<int>, int value);
-void print(const named_vector<int>, int value);
+void print(const named_vector<int>);
 void toupper(const named_vector<int>);
 void sort(const named_vector<int>);
 void rotate(const named_vector<int>, int);
@@ -19,4 +19,4 @@ void reverse(const named_vector<int>);
 
 } // namespace ipb
 
-#endif // RECTANGLE_HPP
+#endif // IPB_ALGORITHM_HPP
