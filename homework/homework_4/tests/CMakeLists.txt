@@ -16,6 +16,13 @@ target_include_directories(${TEST_BINARY} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/../include
 )
 
+# Add this line to specify the directory where ipb_algorithm library is built
+target_link_directories(${TEST_BINARY} PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/../build/lib  # Adjust path as necessary
+)
+
 # Link the executable with the library
-target_link_libraries(${TEST_BINARY} ipb_algorithm Catch2::Catch2)
+target_link_libraries(${TEST_BINARY} PRIVATE ipb_algorithm Catch2::Catch2)
+
+# Register tests with Catch2
 catch_discover_tests(${TEST_BINARY})
