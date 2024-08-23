@@ -70,15 +70,15 @@ using namespace std;
 
 class Base {
 public:
-  static void run(int x) {
-    while (x-- > 0) {
-      cout << x << endl;
+    static void run(int x) {
+        while (x-- > 0) {
+            cout << x << endl;
+        }
     }
-  }
 };
 
-int main() {
-  std::thread t(&Base::run, 10);
-  t.join();
-  return 0;
+int calls() {
+    std::thread t(&Base::run, 10);
+    t.join();
+    return 0;
 }
