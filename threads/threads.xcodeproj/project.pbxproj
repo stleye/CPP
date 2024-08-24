@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E44EE5F2C78F049006DE556 /* timed_mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E44EE5D2C78F049006DE556 /* timed_mutex.cpp */; };
+		9E5020212C794B290009E58E /* recursive_mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E50201F2C794B290009E58E /* recursive_mutex.cpp */; };
 		9E5F69D22C780EDE009D50A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69D12C780EDE009D50A1 /* main.cpp */; };
 		9E5F69E42C78103F009D50A1 /* calls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69E02C78103F009D50A1 /* calls.cpp */; };
 		9E5F69E52C78103F009D50A1 /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69E12C78103F009D50A1 /* basic.cpp */; };
@@ -28,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9E44EE5D2C78F049006DE556 /* timed_mutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timed_mutex.cpp; sourceTree = "<group>"; };
+		9E44EE5E2C78F049006DE556 /* timed_mutex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = timed_mutex.hpp; sourceTree = "<group>"; };
+		9E50201F2C794B290009E58E /* recursive_mutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursive_mutex.cpp; sourceTree = "<group>"; };
+		9E5020202C794B290009E58E /* recursive_mutex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursive_mutex.hpp; sourceTree = "<group>"; };
 		9E5F69CE2C780EDE009D50A1 /* threads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = threads; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5F69D12C780EDE009D50A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9E5F69E02C78103F009D50A1 /* calls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calls.cpp; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 				9E5F69E92C7810D8009D50A1 /* mutex.h */,
 				9E5F69EA2C78C075009D50A1 /* mutex_try_lock.cpp */,
 				9E5F69ED2C78CA2B009D50A1 /* try_lock.cpp */,
+				9E44EE5D2C78F049006DE556 /* timed_mutex.cpp */,
+				9E50201F2C794B290009E58E /* recursive_mutex.cpp */,
+				9E5020202C794B290009E58E /* recursive_mutex.hpp */,
+				9E44EE5E2C78F049006DE556 /* timed_mutex.hpp */,
 				9E5F69EE2C78CA2B009D50A1 /* try_lock.hpp */,
 				9E5F69EB2C78C075009D50A1 /* mutex_try_lock.hpp */,
 			);
@@ -150,6 +160,8 @@
 				9E5F69D22C780EDE009D50A1 /* main.cpp in Sources */,
 				9E5F69EF2C78CA2B009D50A1 /* try_lock.cpp in Sources */,
 				9E5F69E42C78103F009D50A1 /* calls.cpp in Sources */,
+				9E5020212C794B290009E58E /* recursive_mutex.cpp in Sources */,
+				9E44EE5F2C78F049006DE556 /* timed_mutex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

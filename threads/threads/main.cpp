@@ -11,8 +11,10 @@
 #include "mutex.h"
 #include "mutex_try_lock.hpp"
 #include "try_lock.hpp"
+#include "timed_mutex.hpp"
+#include "recursive_mutex.hpp"
 
 int main(int argc, const char * argv[]) {
-    try_lock();
+    recursive_mutex();
     return 0;
 }
