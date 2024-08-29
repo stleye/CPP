@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		9E44EE5F2C78F049006DE556 /* timed_mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E44EE5D2C78F049006DE556 /* timed_mutex.cpp */; };
 		9E5020212C794B290009E58E /* recursive_mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E50201F2C794B290009E58E /* recursive_mutex.cpp */; };
+		9E5020252C7AA7460009E58E /* condition_variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5020232C7AA7460009E58E /* condition_variable.cpp */; };
 		9E5F69D22C780EDE009D50A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69D12C780EDE009D50A1 /* main.cpp */; };
 		9E5F69E42C78103F009D50A1 /* calls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69E02C78103F009D50A1 /* calls.cpp */; };
 		9E5F69E52C78103F009D50A1 /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69E12C78103F009D50A1 /* basic.cpp */; };
 		9E5F69E62C78103F009D50A1 /* mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69E22C78103F009D50A1 /* mutex.cpp */; };
 		9E5F69EC2C78C075009D50A1 /* mutex_try_lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69EA2C78C075009D50A1 /* mutex_try_lock.cpp */; };
 		9E5F69EF2C78CA2B009D50A1 /* try_lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69ED2C78CA2B009D50A1 /* try_lock.cpp */; };
+		9E6E601A2C7EA6200070E065 /* thread_synchronization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E60182C7EA6200070E065 /* thread_synchronization.cpp */; };
+		9EE8D39A2C80F88500749BC8 /* std_lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8D3982C80F88500749BC8 /* std_lock.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,8 @@
 		9E44EE5E2C78F049006DE556 /* timed_mutex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = timed_mutex.hpp; sourceTree = "<group>"; };
 		9E50201F2C794B290009E58E /* recursive_mutex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursive_mutex.cpp; sourceTree = "<group>"; };
 		9E5020202C794B290009E58E /* recursive_mutex.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursive_mutex.hpp; sourceTree = "<group>"; };
+		9E5020232C7AA7460009E58E /* condition_variable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = condition_variable.cpp; sourceTree = "<group>"; };
+		9E5020242C7AA7460009E58E /* condition_variable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = condition_variable.hpp; sourceTree = "<group>"; };
 		9E5F69CE2C780EDE009D50A1 /* threads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = threads; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5F69D12C780EDE009D50A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9E5F69E02C78103F009D50A1 /* calls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calls.cpp; sourceTree = "<group>"; };
@@ -46,6 +51,10 @@
 		9E5F69EB2C78C075009D50A1 /* mutex_try_lock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mutex_try_lock.hpp; sourceTree = "<group>"; };
 		9E5F69ED2C78CA2B009D50A1 /* try_lock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = try_lock.cpp; sourceTree = "<group>"; };
 		9E5F69EE2C78CA2B009D50A1 /* try_lock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = try_lock.hpp; sourceTree = "<group>"; };
+		9E6E60182C7EA6200070E065 /* thread_synchronization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = thread_synchronization.cpp; sourceTree = "<group>"; };
+		9E6E60192C7EA6200070E065 /* thread_synchronization.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = thread_synchronization.hpp; sourceTree = "<group>"; };
+		9EE8D3982C80F88500749BC8 /* std_lock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_lock.cpp; sourceTree = "<group>"; };
+		9EE8D3992C80F88500749BC8 /* std_lock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_lock.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				9E5F69ED2C78CA2B009D50A1 /* try_lock.cpp */,
 				9E44EE5D2C78F049006DE556 /* timed_mutex.cpp */,
 				9E50201F2C794B290009E58E /* recursive_mutex.cpp */,
+				9E5020232C7AA7460009E58E /* condition_variable.cpp */,
+				9E6E60182C7EA6200070E065 /* thread_synchronization.cpp */,
+				9EE8D3982C80F88500749BC8 /* std_lock.cpp */,
+				9EE8D3992C80F88500749BC8 /* std_lock.hpp */,
+				9E6E60192C7EA6200070E065 /* thread_synchronization.hpp */,
+				9E5020242C7AA7460009E58E /* condition_variable.hpp */,
 				9E5020202C794B290009E58E /* recursive_mutex.hpp */,
 				9E44EE5E2C78F049006DE556 /* timed_mutex.hpp */,
 				9E5F69EE2C78CA2B009D50A1 /* try_lock.hpp */,
@@ -154,13 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6E601A2C7EA6200070E065 /* thread_synchronization.cpp in Sources */,
 				9E5F69EC2C78C075009D50A1 /* mutex_try_lock.cpp in Sources */,
 				9E5F69E52C78103F009D50A1 /* basic.cpp in Sources */,
 				9E5F69E62C78103F009D50A1 /* mutex.cpp in Sources */,
+				9EE8D39A2C80F88500749BC8 /* std_lock.cpp in Sources */,
 				9E5F69D22C780EDE009D50A1 /* main.cpp in Sources */,
 				9E5F69EF2C78CA2B009D50A1 /* try_lock.cpp in Sources */,
 				9E5F69E42C78103F009D50A1 /* calls.cpp in Sources */,
 				9E5020212C794B290009E58E /* recursive_mutex.cpp in Sources */,
+				9E5020252C7AA7460009E58E /* condition_variable.cpp in Sources */,
 				9E44EE5F2C78F049006DE556 /* timed_mutex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

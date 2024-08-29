@@ -13,8 +13,11 @@
 #include "try_lock.hpp"
 #include "timed_mutex.hpp"
 #include "recursive_mutex.hpp"
+#include "condition_variable.hpp"
+#include "thread_synchronization.hpp"
+#include "std_lock.hpp"
 
 int main(int argc, const char * argv[]) {
-    recursive_mutex();
+    std_lock();
     return 0;
 }
