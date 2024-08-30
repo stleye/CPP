@@ -18,6 +18,7 @@
 		9E5F69EF2C78CA2B009D50A1 /* try_lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F69ED2C78CA2B009D50A1 /* try_lock.cpp */; };
 		9E6E601A2C7EA6200070E065 /* thread_synchronization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E6E60182C7EA6200070E065 /* thread_synchronization.cpp */; };
 		9EE8D39A2C80F88500749BC8 /* std_lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8D3982C80F88500749BC8 /* std_lock.cpp */; };
+		9EE8D39E2C81418200749BC8 /* promise_and_future.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8D39C2C81418200749BC8 /* promise_and_future.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		9E6E60192C7EA6200070E065 /* thread_synchronization.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = thread_synchronization.hpp; sourceTree = "<group>"; };
 		9EE8D3982C80F88500749BC8 /* std_lock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_lock.cpp; sourceTree = "<group>"; };
 		9EE8D3992C80F88500749BC8 /* std_lock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_lock.hpp; sourceTree = "<group>"; };
+		9EE8D39C2C81418200749BC8 /* promise_and_future.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = promise_and_future.cpp; sourceTree = "<group>"; };
+		9EE8D39D2C81418200749BC8 /* promise_and_future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = promise_and_future.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				9E5020232C7AA7460009E58E /* condition_variable.cpp */,
 				9E6E60182C7EA6200070E065 /* thread_synchronization.cpp */,
 				9EE8D3982C80F88500749BC8 /* std_lock.cpp */,
+				9EE8D39C2C81418200749BC8 /* promise_and_future.cpp */,
+				9EE8D39D2C81418200749BC8 /* promise_and_future.hpp */,
 				9EE8D3992C80F88500749BC8 /* std_lock.hpp */,
 				9E6E60192C7EA6200070E065 /* thread_synchronization.hpp */,
 				9E5020242C7AA7460009E58E /* condition_variable.hpp */,
@@ -179,6 +184,7 @@
 				9E5F69E42C78103F009D50A1 /* calls.cpp in Sources */,
 				9E5020212C794B290009E58E /* recursive_mutex.cpp in Sources */,
 				9E5020252C7AA7460009E58E /* condition_variable.cpp in Sources */,
+				9EE8D39E2C81418200749BC8 /* promise_and_future.cpp in Sources */,
 				9E44EE5F2C78F049006DE556 /* timed_mutex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

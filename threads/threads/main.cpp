@@ -16,8 +16,9 @@
 #include "condition_variable.hpp"
 #include "thread_synchronization.hpp"
 #include "std_lock.hpp"
+#include "promise_and_future.hpp"
 
 int main(int argc, const char * argv[]) {
-    std_lock();
+    promise_and_future();
     return 0;
 }
